@@ -1,1 +1,23 @@
 /* You can add global styles to this file, and also import other style files */
+html{
+
+}
+
+body{
+    width: 100vw;
+    background-color: #3a3a3a;
+    color:white;
+    margin:0;
+    padding:0;
+}
+
+.highlight{
+    color: #d38d14;
+}
+
+
+
+@font-face {
+    font-family: "f";
+    src: url(./assets/Orbitron-VariableFont_wght.ttf) format("truetype");
+}

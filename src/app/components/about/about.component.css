@@ -1,0 +1,34 @@
+.main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-right: 0;
+}
+
+.motto{
+    margin-bottom: 30px;
+    font-size: 50px;
+    font-family: f;
+}
+
+.text{
+    width: 70%;
+    margin-bottom: 30px;
+}
+
+.clients{
+    width: 100%;
+    padding:20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #d38d14;
+}
+
+.h{
+    font-size: 15px;
+    font-family: f;
+}

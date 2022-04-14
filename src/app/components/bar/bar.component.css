@@ -24,11 +24,11 @@
 .button-nagivate{
     padding: 12px 12px 12px 12px;
     transition: 0.5s ease-in-out;
-    border: 1px solid #d38d14;
 }
 
 .button-nagivate:hover{
     border-radius: 50%;
+    background-color: #d38d14;
     cursor: pointer;
 }
     

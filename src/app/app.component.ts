@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'sajt';
+
+  public s: string = "";
+
+  public scroll(s: HTMLElement){
+    s.scrollIntoView({behavior: "smooth"});
+  }
 }
