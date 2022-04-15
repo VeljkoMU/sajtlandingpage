@@ -7,6 +7,8 @@ import { BarComponent } from './components/bar/bar.component';
 import { AboutComponent } from './components/about/about.component';
 import { ServicesComponent } from './components/services/services.component';
 import { JoinComponent } from './components/join/join.component';
+import { ContactComponent } from './components/contact/contact.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +16,9 @@ import { JoinComponent } from './components/join/join.component';
     BarComponent,
     AboutComponent,
     ServicesComponent,
-    JoinComponent
+    JoinComponent,
+    ContactComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
