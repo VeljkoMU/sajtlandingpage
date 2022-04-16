@@ -3,18 +3,19 @@ html{
     width: auto;
     margin:0;
     padding:0;
+    overflow-x: hidden;
 }
 
 body{
-    width: 100%;
-    background-color: #3a3a3a;
-    color:white;
+    background-color: white;
+    color:black;
     margin:0;
     padding:0;
+    font-family: g;
 }
 
 .highlight{
-    color: #d38d14;
+    color: rgb(67, 111, 254);
 }
 
 
@@ -22,4 +23,9 @@ body{
 @font-face {
     font-family: "f";
     src: url(./assets/Orbitron-VariableFont_wght.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: "g";
+    src: url(./assets/general.ttf) format("truetype");
 }

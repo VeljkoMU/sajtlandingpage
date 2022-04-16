@@ -1,7 +1,7 @@
+<div class="cont">
 <div class="bar">
-  <div class = "logo">
-      <img>
-      OVDE IDE NAS LOGO
+  <div class = "logo" [ngStyle]="{'opacity': appear?'100%':'0'}">
+      <img src="../assets/logo.png">
   </div>
   <div class="options">
       <div class="button-nagivate" (click)="scroll(a)">About Us</div>
@@ -9,6 +9,10 @@
       <div class="button-nagivate" (click)="scroll(join)">Carreers</div>
       <div class="button-nagivate" (click)="scroll(c)">Contact</div>
   </div>
+</div>
+<div class="motto highlight" [ngStyle]="{'opacity': appear?'100%':'0'}">
+  WE BUILD YOUR IDEAS <span [ngStyle]="{'opacity': flashing?'100%':'0'}">_</span>
+</div>
 </div>
 <div #a></div>
 <app-about></app-about>

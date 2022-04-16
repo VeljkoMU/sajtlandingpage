@@ -10,6 +10,18 @@ export class AppComponent {
 
   public s: string = "";
 
+  public appear:boolean = false;
+
+  public flashing:boolean = true;
+
+  ngOnInit(): void {
+    setInterval(()=>{
+      this.flashing = !this.flashing;
+      console.log(this.flashing);
+      this.appear=true;
+    },500);
+
+  }
   public scroll(s: HTMLElement){
     s.scrollIntoView({behavior: "smooth"});
   }

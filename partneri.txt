@@ -5,3 +5,5 @@ status vinarija
 spektar
 austroterm
 miselin
+rgb(67, 111, 254)
+rgb(232, 109, 2)
