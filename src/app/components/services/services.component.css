@@ -14,3 +14,25 @@ span{
     font-size: 30px;
     font-family: f;
 }
+
+.kartice{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    text-align: center;
+}
+
+.icons{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+img{
+    height: 50px;
+    margin-left: 10px;
+}
+
+img:hover{
+    background-color: rgb(67, 111, 254);
+}

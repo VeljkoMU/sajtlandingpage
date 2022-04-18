@@ -9,7 +9,8 @@ import { ServicesComponent } from './components/services/services.component';
 import { JoinComponent } from './components/join/join.component';
 import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
-
+import { ServiceComponent } from './components/service/service.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,11 +19,13 @@ import { FooterComponent } from './components/footer/footer.component';
     ServicesComponent,
     JoinComponent,
     ContactComponent,
-    FooterComponent
+    FooterComponent,
+    ServiceComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    BrowserAnimationsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

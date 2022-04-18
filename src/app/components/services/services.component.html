@@ -1,6 +1,27 @@
 <div class="services">
     <span class="highlight">What we can offer</span>
+    <div class="icons">
+        <img (mouseover)="go('web')" src="../../../assets/1e0078f8266738d005b5fc7d00f9a66e.png">
+        <img (mouseover)="go('ras')" src="../../../assets/ras.png">
+    </div>
     <div class="kartice">
-    OVDE IDU KARTICE GDE PISE STA RADIMO
+    <div *ngIf="num==='ras'" @slide>Robust and affordable, Raspberry Pi technology has
+        been deployed in tens of thousands of applications 
+        in a variety of industries across the world.
+        Raspberry Pi has computing solutions to fit a wide 
+        range of applications. From micro-controllers
+        to ARM-based computers, Raspberry Pi brings every 
+        last drop of power to bear in your application.
+        Peek into the future, automate and modernize your home 
+        or large factory sector.</div>
+    <div *ngIf="num==='web'" @slide>
+        We can develop, test and deploy webapps and websites for your business, we offer <br>
+        Unique website design<br>
+        Simple and attractive interface<br>
+        Possibility of self-updating the site<br>
+        Daily updating and maintenance of the system<br>
+        Training and instructions for use<br>
+        Data security<br>
+        Whether your customers are using a desktop or mobile device to buy a product, your store will be customized flawlessly on all devices. In few steps open your web store, insert articles, add prices and start selling.</div>
     </div>
 </div>
