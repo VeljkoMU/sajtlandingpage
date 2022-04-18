@@ -21,7 +21,7 @@ import { trigger, transition, animate, style } from '@angular/animations'
 })
 export class ServicesComponent implements OnInit {
 
-  public num:string="";
+  public num:string="web";
   constructor() { }
 
   ngOnInit(): void {

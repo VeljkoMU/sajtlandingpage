@@ -1,8 +1,25 @@
 <div class="services">
     <span class="highlight">What we can offer</span>
     <div class="icons">
-        <img (mouseover)="go('web')" src="../../../assets/1e0078f8266738d005b5fc7d00f9a66e.png">
-        <img (mouseover)="go('ras')" src="../../../assets/ras.png">
+        <figure>
+            <figcaption>WebDev</figcaption>
+        <img  [ngStyle]="{'background-color': num=='web'?'rgb(136, 164, 255)':'white'}"  (mouseover)="go('web')" src="../../../assets/1e0078f8266738d005b5fc7d00f9a66e.png">
+ 
+    </figure>
+    <figure >
+        <figcaption>Automation</figcaption>
+        <img [ngStyle]="{'background-color': num=='ras'?'rgb(136, 164, 255)':'white'}" (mouseover)="go('ras')" src="../../../assets/ras.png">
+    </figure>
+    <figure>
+        <figcaption>industry</figcaption>
+        <div class="img" (mouseover)="go('plc')" [ngStyle]="{'background-color': num=='plc'?'rgb(136, 164, 255)':'rgb(154, 154, 154)'}">
+            PLC
+        </div>
+    </figure>
+    <figure>
+        <figcaption>Custom App</figcaption>
+        <img src="../../../assets/app.png" (mouseover)="go('app')" [ngStyle]="{'background-color': num=='app'?'rgb(136, 164, 255)':'white'}">
+    </figure>
     </div>
     <div class="kartice">
     <div *ngIf="num==='ras'" @slide>Robust and affordable, Raspberry Pi technology has
@@ -16,12 +33,38 @@
         or large factory sector.</div>
     <div *ngIf="num==='web'" @slide>
         We can develop, test and deploy webapps and websites for your business, we offer <br>
-        Unique website design<br>
-        Simple and attractive interface<br>
-        Possibility of self-updating the site<br>
-        Daily updating and maintenance of the system<br>
-        Training and instructions for use<br>
-        Data security<br>
+        <ul>
+        <li>Unique website design</li>
+        <li>Simple and attractive interface</li>
+        <li>Possibility of self-updating the site</li>
+        <li>Daily updating and maintenance of the system</li>
+        <li>Training and instructions for use</li>
+        <li>Data security</li>
+    </ul>
         Whether your customers are using a desktop or mobile device to buy a product, your store will be customized flawlessly on all devices. In few steps open your web store, insert articles, add prices and start selling.</div>
+    <div *ngIf="num=='plc'" @slide>
+        We develop new PLC systems
+    from the ground up and also troubleshoot,
+    update, and add to pre-existing PLC systems.
+    Our PLC platform expertise includes Siemens, Fatek, Unitronics, Omron and more.<br>
+    <br>
+    We work with many industrial network protocols and hardware layers
+    (Ethernet I/P, Modbus, RS-232, RS-485, CAN, and others).<br>
+    <br>
+    In today’s world of the Industrial Internet of Things (iIoT), and Industry programmable
+    controllers are called upon to communicate data via Web browser,<br>
+    connect to databases via SQL, and even to the cloud data via MQTT.<br>
     </div>
+    <div *ngIf="num==='app'" @slide>
+        Every aspect of a business has a unique demand, and each of these demands has to be met by a dedicated application. Since most business owners lack familiarity with programming.<br>
+
+We’ll help you bring your most complex software vision to life with our leading full-cycle custom application development service. We Will Help You to<br>
+   <ul> <li>Validate your vision</li>
+    <li>Innovate and compete</li>
+        <li> Maximise your efficiency</li>
+            <li> Future-proof your web applications</li>
+                <li>Ensure operational resilience & agility</li>
+</ul>
+    </div>
+</div>
 </div>

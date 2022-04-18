@@ -8,6 +8,8 @@
     flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
 }
 
 span{
@@ -18,8 +20,9 @@ span{
 .kartice{
     display: flex;
     flex-direction: column;
-    width: 70%;
+    width: 40%;
     text-align: center;
+    height: 200px;
 }
 
 .icons{
@@ -29,10 +32,42 @@ span{
 }
 
 img{
+    height: 70px;
+    transition: 500ms ease-in-out;
+}
+
+.img{
     height: 50px;
+    width: 70px;
+    color: white;
+    background-color: rgb(154, 154, 154);
+    text-align: center;
+    padding-top:30%;
+    font-size: larger;
+    font-weight: bolder;
+    transition: 500ms ease-in-out;
+}
+
+figure{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     margin-left: 10px;
 }
 
+figcaption{
+    text-align: center;
+}
+
 img:hover{
-    background-color: rgb(67, 111, 254);
+    background-color: rgb(136, 164, 255);
+}
+
+ul{
+    list-style-type: square;
+    text-align: left;
+    margin-left: 35%;
 }

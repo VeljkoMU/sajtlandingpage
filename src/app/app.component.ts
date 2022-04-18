@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Title } from '@angular/platform-browser';
 
 @Component({
   selector: 'app-root',
@@ -13,6 +14,7 @@ export class AppComponent {
   public appear:boolean = false;
 
   public flashing:boolean = true;
+
 
   ngOnInit(): void {
     setInterval(()=>{

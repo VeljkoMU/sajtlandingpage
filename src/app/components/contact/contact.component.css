@@ -12,3 +12,15 @@ span{
     font-size: 30px;
     font-family: f;
 }
+
+a{
+    text-decoration: none;
+    font-size: 30px;
+    color: grey;
+    margin: 30px;
+}
+
+a:hover{
+    color: rgb(67, 111, 254);
+    text-shadow: 50px 50px 55px rgb(67, 111, 254);
+}

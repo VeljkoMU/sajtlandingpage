@@ -12,7 +12,7 @@
 
 .text{
     width: 55%;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
     margin-top:20px;
     text-align: center;
     padding: 20px;
@@ -40,4 +40,8 @@ img{
 span{
     font-size: 30px;
     font-family: f;
+}
+
+.potpis{
+    transform: rotateZ(-0.2rad);
 }
