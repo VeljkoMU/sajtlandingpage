@@ -11,6 +11,8 @@ import { ContactComponent } from './components/contact/contact.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { ServiceComponent } from './components/service/service.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { Pseudo3dcarouselComponent } from './components/pseudo3dcarousel/pseudo3dcarousel.component';
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,7 +22,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     JoinComponent,
     ContactComponent,
     FooterComponent,
-    ServiceComponent
+    ServiceComponent,
+    Pseudo3dcarouselComponent
   ],
   imports: [
     BrowserModule,

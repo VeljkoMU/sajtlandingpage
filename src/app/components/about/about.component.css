@@ -45,3 +45,51 @@ span{
 .potpis{
     transform: rotateZ(-0.2rad);
 }
+
+.profiles{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: 100px;
+}
+
+.profiles div{
+    padding:5px;
+    align-content: center;
+}
+
+.profile-image{
+    width: 100px;
+    height: 100px;
+    object-fit:cover;
+    object-position: top;
+    border-radius: 500px;
+}
+.k{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-content: flex-end;
+    align-items: flex-end;
+    text-align:right;
+}
+.k img{
+align-self: flex-end;
+justify-self: flex-end;
+}
+
+.ceo{
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+@media only screen and (orientation: portrait){
+    img{
+        min-width: 200px;
+    }
+
+    .h{
+        font-size: 10px;
+    }
+}

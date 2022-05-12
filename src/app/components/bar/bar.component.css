@@ -31,4 +31,14 @@
     background-color: rgb(156, 0, 42);
     cursor: pointer;
 }
-    
+
+
+@media only screen and (orientation: portrait){
+    .options{
+        width: 100%;
+    }
+
+    .button-nagivate{
+        width: fit-content;
+    }
+}

@@ -20,7 +20,7 @@ span{
 .kartice{
     display: flex;
     flex-direction: column;
-    width: 40%;
+    width: 50%;
     text-align: center;
     height: 200px;
 }
@@ -62,6 +62,10 @@ figcaption{
     text-align: center;
 }
 
+.plc{
+    font-size: x-large;
+}
+
 img:hover{
     background-color: rgb(136, 164, 255);
 }
@@ -70,4 +74,12 @@ ul{
     list-style-type: square;
     text-align: left;
     margin-left: 35%;
+}
+
+
+@media only screen and (orientation: portrait){
+    .kartice{
+        width: 100%;
+        margin-bottom: 50vh;
+    }
 }
